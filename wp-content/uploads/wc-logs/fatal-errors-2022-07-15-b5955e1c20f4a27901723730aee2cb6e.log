@@ -1,0 +1,50 @@
+2022-07-15T17:44:44+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(670): include_once()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(876): activate_plugin()
+#2 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(124): activate_plugins()
+#3 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T17:44:46+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(2300): include()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(191): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T17:44:46+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(2300): include()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(191): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T17:45:43+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(670): include_once()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(58): activate_plugin()
+#2 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T17:45:45+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(2300): include()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(191): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T17:45:45+00:00 CRITICAL Uncaught WP2Static\WP2StaticException: Looks like you're trying to activate WP2Static from source code, without compiling it first. Please see https://wp2static.com/compiling-from-source for assistance. in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php:29
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/includes/plugin.php(2300): include()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-admin/plugins.php(191): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/wp2static-develop/wp2static.php on line 29
+
+2022-07-15T20:23:25+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/static-files/simply-static-1-1657916604/): failed to open dir: No such file or directory in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php:63
+Stack trace:
+#0 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php(63): RecursiveDirectoryIterator->__construct()
+#1 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php(24): Simply_Static\Create_Zip_Archive_Task->create_zip()
+#2 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/src/class-ss-archive-creation-job.php(122): Simply_Static\Create_Zip_Archive_Task->perform()
+#3 /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/wp-background-process in /opt/wordpress-5.7.2-0/apps/wordpress/htdocs/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php on line 63
+
